@@ -73,10 +73,10 @@ $produits = $conn->query("SELECT * FROM produits WHERE id =" . $_GET["id"])->fet
                     $stmt= $conn->prepare($sql);
                     $stmt->execute();
                     ?>
-            <SCRIPT LANGUAGE="JavaScript">
-            document.location.href="produits.php"
-            </SCRIPT> <?php
-                   
+                    <SCRIPT LANGUAGE="JavaScript">
+                    document.location.href="produits.php"
+                    </SCRIPT> <?php
+                        
                    ?>
                    
                    
@@ -133,6 +133,9 @@ $produits = $conn->query("SELECT * FROM produits WHERE id =" . $_GET["id"])->fet
                     $sql = "INSERT INTO panier (id_produit,	quantite_selectionne) VALUES (".$_GET['id'].", $qtt)";
                     $stmt= $conn->prepare($sql);
                     $stmt->execute();?>
+                    <SCRIPT LANGUAGE="JavaScript">
+                    document.location.href="produits.php"
+                    </SCRIPT> 
             
                 <?php
                 }

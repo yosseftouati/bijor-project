@@ -82,9 +82,29 @@ include('navbar.php');?>
             </div>
             <br>';
         }
+
+
+        echo '<h5><b>Total de votre commande : </b>'; echo $_SESSION['total']; echo'€</h5>' ;
         ?>
-        </div>
+<form action="recapinfo.php" method="post">
+        <br><input name="recap" type="submit" id="bouton4" value=" Valider ma commande ">
+</form>    
+    </div>
    </div>
+
+   <?php
+
+   if(isset($_POST['recap']))
+   {
+    $sql = "TRUNCATE table panier";
+    $stmt= $conn->prepare($sql);
+    $stmt->execute();?>
+    <script LANGUAGE="JavaScript">
+    document.location.href="reception.php"
+</script>
+   <?php } ?>
+   
+
 
    
    

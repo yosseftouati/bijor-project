@@ -50,10 +50,7 @@ if (estVisiteurConnecte()){?>
         <li><a href="bracelet.php" class="nav-link px-2 link-dark">BRACELETS</a></li>
         <li><a href="collier.php" class="nav-link px-2 link-dark">COLLIERS</a></li>
         <li><a href="bague.php" class="nav-link px-2 link-dark">BAGUES</a></li>
-        <li><span id="span" style="margin-left: 70px; margin-top: 5px" class="position-absolute top-7 start-90 translate-middle badge rounded-pill bg-danger">
-   <?php echo $_SESSION['nombre_produits'] ?>
-    <span class="visually-hidden"></span>
-  </span><a href="panier.php" class="nav-link px-2 link-dark">PANIER</a></li>
+        <li><a href="panier.php" class="nav-link px-2 link-dark">PANIER</a></li>
         <div style="margin-left: 75px">
         
         <a href="deconnecter.php"><button type="button" class="btn btn-primary">DECONNEXION</button></a>

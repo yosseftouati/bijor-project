@@ -48,19 +48,20 @@ else{
       $prixQtt= intval($panier['quantite_selectionne']);
       $prixTot = $prixQtt * $prixUnit;
       $total += $prixTot;
+      $_SESSION['total']=$total;
       $nombre_produits++;
       $_SESSION['nombre_produits'] = $nombre_produits;
       
       ?>
      <tr>
 
-        <th><img src="<?= $panier['image']?>" class="card-img-top" alt="..."></th>
-        <th><?= $panier['titre']?></th>
-        <th><?= $panier['quantite_selectionne']?></th>
-        <th><?= $panier['prix']?>€</th>
-        <th><?php echo $prixTot ?>€</th>
+        <th><img style="width:60%" src="<?= $panier['image']?>" class="card-img-top" alt="..."></th>
+        <th><div style="margin-top:19%"><?= $panier['titre']?></th></div>
+        <th><div style="margin-top:100%"><?= $panier['quantite_selectionne']?></th></div>
+        <th><div style="margin-top:73%"><?= $panier['prix']?>€</th></div>
+        <th><div style="margin-top:95%"><?php echo $prixTot ?>€</th></div>
         <th>
-          <a style="color: white" href="supprimer.php?id=<?= $panier['id'] ?>">Supprimer</a>
+        <div style="margin-top:50%"><a style="color: white" href="supprimer.php?id=<?= $panier['id'] ?>">Supprimer</a></div>
         </th>
      </tr>
    

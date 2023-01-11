@@ -79,7 +79,7 @@ if(isset($_POST['suivant']))
 {
     
 
-    $_SESSION['prenom']=$_POST['prenom'];
+    $prenom=$_POST['prenom'];
     $nom=$_POST['nom'];
     $tel=$_POST['tel'];
     $adresse=$_POST['adresse'];

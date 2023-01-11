@@ -235,3 +235,24 @@ height: 100%;
     border-color: #B09961;
     padding: 2%;
 }
+
+#bouton4{
+    background-color: #cbb376;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+}
+#bouton4:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.merci{
+    margin-top: 150px;
+}
