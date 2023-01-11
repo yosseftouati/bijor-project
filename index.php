@@ -9,7 +9,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.ordumonde.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcklmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2f2e4ec1e969eb392a221a40adf87b1e7d7d8845/collection-stella.jpg" class="d-block w-100" alt="...">
+      <!-- <img src="https://www.ordumonde.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcklmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2f2e4ec1e969eb392a221a40adf87b1e7d7d8845/collection-stella.jpg" class="d-block w-100" alt="..."> -->
       <div class="carousel-caption d-none d-md-block">
         <h4 style="margin-right: 690px;">OSEZ LE DIAMANT</h5>
         <p style="margin-right: 700px; margin-bottom: 170px; width: 400px">Découvrez notre gamme de bracelets en diamant</p>
